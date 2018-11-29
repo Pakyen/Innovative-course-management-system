@@ -44,6 +44,14 @@ public class CmSysfileController extends BaseController {
     }
 
     /**
+     * 跳转到添加推荐资料,自制造版本
+     */
+    @RequestMapping("/upload")
+    public String cmSysfileUpload() {
+        return PREFIX + "upload.html";
+    }
+
+    /**
      * 跳转到修改推荐资料
      */
     @RequestMapping("/cmSysfile_update/{cmSysfileId}")

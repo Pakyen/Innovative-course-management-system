@@ -45,7 +45,7 @@ CmSysfile.openAddCmSysfile = function () {
         area: ['800px', '420px'], //宽高
         fix: false, //不固定
         maxmin: true,
-        content: Feng.ctxPath + '/cmSysfile/cmSysfile_add'
+        content: Feng.ctxPath + '/cmSysfile/upload'
     });
     this.layerIndex = index;
 };

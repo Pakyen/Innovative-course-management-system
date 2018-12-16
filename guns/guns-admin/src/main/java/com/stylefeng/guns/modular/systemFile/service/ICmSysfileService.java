@@ -2,6 +2,7 @@ package com.stylefeng.guns.modular.systemFile.service;
 
 import com.stylefeng.guns.modular.system.model.CmSysfile;
 import com.baomidou.mybatisplus.service.IService;
+import org.springframework.web.multipart.MultipartFile;
 
 /**
  * <p>

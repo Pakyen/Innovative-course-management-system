@@ -21,6 +21,7 @@ public class NoticeWrapper extends BaseControllerWarpper {
     public void warpTheMap(Map<String, Object> map) {
         Integer creater = (Integer) map.get("creater");
         map.put("createrName", ConstantFactory.me().getUserNameById(creater));
+        map.put("deptName", ConstantFactory.me().getDeptName((Integer) map.get("deptid")));
     }
 
 }

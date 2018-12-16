@@ -56,7 +56,9 @@ CmStudentInfoDlg.collectData = function() {
     .set('assistantId')
     .set('telephone')
     .set('email')
-    .set('name');
+    .set('name')
+    .set('account')
+    .set('isStu');
 }
 
 /**

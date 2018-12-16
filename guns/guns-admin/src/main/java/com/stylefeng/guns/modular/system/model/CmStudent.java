@@ -11,14 +11,14 @@ import java.io.Serializable;
  * </p>
  *
  * @author qqzj
- * @since 2018-11-27
+ * @since 2018-12-01
  */
 @TableName("cm_student")
 public class CmStudent extends Model<CmStudent> {
 
     private static final long serialVersionUID = 1L;
 
-    private String id;
+    private Integer id;
     @TableField("school_id")
     private Integer schoolId;
     @TableField("class_id")
@@ -40,16 +40,25 @@ public class CmStudent extends Model<CmStudent> {
      */
     @TableField("assistant_id")
     private String assistantId;
+    /**
+     * 0
+     */
     private String telephone;
     private String email;
     private String name;
+    private String account;
+    /**
+     * false的话就是助教
+     */
+    @TableField("is_stu")
+    private Integer isStu;
 
 
-    public String getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -141,6 +150,22 @@ public class CmStudent extends Model<CmStudent> {
         this.name = name;
     }
 
+    public String getAccount() {
+        return account;
+    }
+
+    public void setAccount(String account) {
+        this.account = account;
+    }
+
+    public Integer getIsStu() {
+        return isStu;
+    }
+
+    public void setIsStu(Integer isStu) {
+        this.isStu = isStu;
+    }
+
     @Override
     protected Serializable pkVal() {
         return null;
@@ -161,6 +186,8 @@ public class CmStudent extends Model<CmStudent> {
         ", telephone=" + telephone +
         ", email=" + email +
         ", name=" + name +
+        ", account=" + account +
+        ", isStu=" + isStu +
         "}";
     }
 }

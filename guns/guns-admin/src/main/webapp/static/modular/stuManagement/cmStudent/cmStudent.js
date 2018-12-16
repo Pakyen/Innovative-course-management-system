@@ -14,18 +14,20 @@ var CmStudent = {
 CmStudent.initColumn = function () {
     return [
         {field: 'selectItem', radio: true},
-            {title: '学生账号', field: 'id', visible: true, align: 'center', valign: 'middle'},
+            {title: 'ID', field: 'id', visible: true, align: 'center', valign: 'middle'},
             {title: '学校编号', field: 'schoolId', visible: true, align: 'center', valign: 'middle'},
-            {title: '班级编号', field: 'classId', visible: true, align: 'center', valign: 'middle'},
-            {title: '结对编程组编号', field: 'teamId', visible: true, align: 'center', valign: 'middle'},
-            {title: '团队项目组编号', field: 'groupId', visible: true, align: 'center', valign: 'middle'},
-            {title: '账户密码', field: 'password', visible: true, align: 'center', valign: 'middle'},
-            {title: '是否是PM', field: 'ifPm', visible: true, align: 'center', valign: 'middle'},
-            {title: '账号使用', field: 'ifUse', visible: true, align: 'center', valign: 'middle'},
-            {title: '学生对应的助教账号', field: 'assistantId', visible: true, align: 'center', valign: 'middle'},
+            {title: '课程编号', field: 'classId', visible: true, align: 'center', valign: 'middle'},
+            {title: '结对编号', field: 'teamId', visible: true, align: 'center', valign: 'middle'},
+            {title: '团队编号', field: 'groupId', visible: true, align: 'center', valign: 'middle'},
+            {title: '密码', field: 'password', visible: true, align: 'center', valign: 'middle'},
+            {title: '是否PM', field: 'ifPm', visible: true, align: 'center', valign: 'middle'},
+            {title: '用来设置，是否该账号使用', field: 'ifUse', visible: true, align: 'center', valign: 'middle'},
+            {title: '学生对应的作业验收助教', field: 'assistantId', visible: true, align: 'center', valign: 'middle'},
             {title: '电话', field: 'telephone', visible: true, align: 'center', valign: 'middle'},
             {title: '邮箱', field: 'email', visible: true, align: 'center', valign: 'middle'},
-            {title: '学生姓名', field: 'name', visible: true, align: 'center', valign: 'middle'}
+            {title: '姓名', field: 'name', visible: true, align: 'center', valign: 'middle'},
+            {title: '账户', field: 'account', visible: true, align: 'center', valign: 'middle'},
+            {title: 'false的话就是助教', field: 'isStu', visible: true, align: 'center', valign: 'middle'}
     ];
 };
 

@@ -16,11 +16,13 @@
         <result column="telephone" property="telephone" />
         <result column="email" property="email" />
         <result column="name" property="name" />
+        <result column="account" property="account" />
+        <result column="is_stu" property="isStu" />
     </resultMap>
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id, school_id, class_id, Team_id, group_id, password, if_pm, if_use, assistant_id, telephone, email, name
+        id, school_id, class_id, Team_id, group_id, password, if_pm, if_use, assistant_id, telephone, email, name, account, is_stu
     </sql>
 
 </mapper>

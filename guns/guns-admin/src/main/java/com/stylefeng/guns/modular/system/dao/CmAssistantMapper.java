@@ -9,7 +9,7 @@ import com.baomidou.mybatisplus.mapper.BaseMapper;
  * </p>
  *
  * @author qqzj
- * @since 2018-11-27
+ * @since 2018-12-01
  */
 public interface CmAssistantMapper extends BaseMapper<CmAssistant> {
 

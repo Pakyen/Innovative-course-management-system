@@ -10,6 +10,7 @@
         <result column="content" property="content"/>
         <result column="createtime" property="createtime"/>
         <result column="creater" property="creater"/>
+        <result column="deptid" property="deptid" />
     </resultMap>
 
     <select id="list" resultType="map">

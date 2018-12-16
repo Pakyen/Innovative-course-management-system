@@ -4,6 +4,7 @@ import com.stylefeng.guns.base.BaseJunit;
 import com.stylefeng.guns.modular.system.dao.NoticeMapper;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 import java.util.Map;
@@ -22,8 +23,8 @@ public class BlackBoardTest extends BaseJunit {
     NoticeMapper noticeMapper;
 
     @Test
-    public void blackBoardTest() {
-        List<Map<String, Object>> notices = noticeMapper.list(null);
+    public void blackBoardTest(@RequestParam(required = false) Integer deptid) {
+        List<Map<String, Object>> notices = noticeMapper.list(null,null,deptid);
         assertTrue(notices.size() > 0);
     }
 }

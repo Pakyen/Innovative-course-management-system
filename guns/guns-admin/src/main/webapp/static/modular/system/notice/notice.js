@@ -5,7 +5,8 @@ var Notice = {
     id: "NoticeTable",	//表格id
     seItem: null,		//选中的条目
     table: null,
-    layerIndex: -1
+    layerIndex: -1,
+    deptid:0
 };
 
 /**
@@ -17,6 +18,7 @@ Notice.initColumn = function () {
         {title: 'id', field: 'id', visible: false, align: 'center', valign: 'middle'},
         {title: '标题', field: 'title', align: 'center', valign: 'middle', sortable: true},
         {title: '内容', field: 'content', align: 'center', valign: 'middle', sortable: true},
+        {title: '部门', field: 'deptName', align: 'center', valign: 'middle', sortable: true},
         {title: '发布者', field: 'createrName', align: 'center', valign: 'middle', sortable: true},
         {title: '创建时间', field: 'createtime', align: 'center', valign: 'middle', sortable: true}
     ];
@@ -94,8 +96,14 @@ Notice.delete = function () {
  */
 Notice.search = function () {
     var queryData = {};
+    queryData['deptid'] = Notice.deptid;
     queryData['condition'] = $("#condition").val();
     Notice.table.refresh({query: queryData});
+};
+
+Notice.onClickDept = function (e, treeId, treeNode) {
+    Notice.deptid = treeNode.id;
+    Notice.search();
 };
 
 $(function () {
@@ -103,4 +111,8 @@ $(function () {
     var table = new BSTable(Notice.id, "/notice/list", defaultColunms);
     table.setPaginationType("client");
     Notice.table = table.init();
+
+    var ztree = new $ZTree("deptTree", "/dept/tree");
+    ztree.bindOnClick(Notice.onClickDept);
+    ztree.init();
 });

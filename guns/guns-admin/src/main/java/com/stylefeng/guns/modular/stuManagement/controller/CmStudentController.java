@@ -16,7 +16,7 @@ import com.stylefeng.guns.modular.stuManagement.service.ICmStudentService;
  * 学生管理控制器
  *
  * @author fengshuonan
- * @Date 2018-11-27 14:25:02
+ * @Date 2018-12-01 17:25:06
  */
 @Controller
 @RequestMapping("/cmStudent")

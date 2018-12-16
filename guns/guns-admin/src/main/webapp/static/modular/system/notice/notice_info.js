@@ -11,6 +11,13 @@ var NoticeInfoDlg = {
                     message: '标题不能为空'
                 }
             }
+        },
+        citySel: {
+            validators: {
+                notEmpty: {
+                    message: '部门不能为空'
+                }
+            }
         }
     }
 };
@@ -51,11 +58,71 @@ NoticeInfoDlg.close = function () {
 }
 
 /**
+ * 点击部门input框时
+ *
+ * @param e
+ * @param treeId
+ * @param treeNode
+ * @returns
+ */
+NoticeInfoDlg.onClickDept = function (e, treeId, treeNode) {
+    $("#citySel").attr("value", instance.getSelectedVal());
+    $("#deptid").attr("value", treeNode.id);
+};
+
+/**
+ * 显示部门选择的树
+ *
+ * @returns
+ */
+NoticeInfoDlg.showDeptSelectTree = function () {
+    var cityObj = $("#citySel");
+    var cityOffset = $("#citySel").offset();
+    $("#menuContent").css({
+        left: cityOffset.left + "px",
+        top: cityOffset.top + cityObj.outerHeight() + "px"
+    }).slideDown("fast");
+
+    $("body").bind("mousedown", onBodyDown);
+};
+
+/**
+ * 显示用户详情部门选择的树
+ *
+ * @returns
+ */
+NoticeInfoDlg.showInfoDeptSelectTree = function () {
+    var cityObj = $("#citySel");
+    var cityPosition = $("#citySel").position();
+    $("#menuContent").css({
+        left: cityPosition.left + "px",
+        top: cityPosition.top + cityObj.outerHeight() + "px"
+    }).slideDown("fast");
+
+    $("body").bind("mousedown", onBodyDown);
+};
+
+/**
+ * 隐藏部门选择的树
+ */
+NoticeInfoDlg.hideDeptSelectTree = function () {
+    $("#menuContent").fadeOut("fast");
+    $("body").unbind("mousedown", onBodyDown);// mousedown当鼠标按下就可以触发，不用弹起
+};
+//
+// /**
+//  * 收集数据
+//  */
+// UserInfoDlg.collectData = function () {
+//     this.set('id').set('account').set('sex').set('password').set('avatar')
+//         .set('email').set('name').set('birthday').set('rePassword').set('deptid').set('phone');
+// };
+/**
  * 收集数据
  */
 NoticeInfoDlg.collectData = function () {
     this.noticeInfoData['content'] = NoticeInfoDlg.editor.txt.html();
-    this.set('id').set('title');
+    this.set('deptid').set('id').set('title');
 }
 
 /**
@@ -124,4 +191,9 @@ $(function () {
     editor.create();
     editor.txt.html($("#contentVal").val());
     NoticeInfoDlg.editor = editor;
+    //初始化部门选择树
+    var ztree = new $ZTree("treeDemo", "/dept/tree");
+    ztree.bindOnClick(NoticeInfoDlg.onClickDept);
+    ztree.init();
+    instance = ztree;
 });

@@ -46,7 +46,10 @@ public class Notice extends Model<Notice> {
      * 创建人
      */
 	private Integer creater;
-
+	/**
+	 * 部门id
+	 */
+	private Integer deptid;
 
 	public Integer getId() {
 		return id;
@@ -96,6 +99,12 @@ public class Notice extends Model<Notice> {
 		this.creater = creater;
 	}
 
+	public Integer getDeptid() {
+		return deptid;
+	}
+
+	public void setDeptid(Integer deptid) {this.deptid = deptid;}
+
 	@Override
 	protected Serializable pkVal() {
 		return this.id;
@@ -110,6 +119,7 @@ public class Notice extends Model<Notice> {
 			", content=" + content +
 			", createtime=" + createtime +
 			", creater=" + creater +
+			", deptid=" + deptid +
 			"}";
 	}
 }

@@ -5,6 +5,7 @@ import com.stylefeng.guns.core.common.annotion.BussinessLog;
 import com.stylefeng.guns.core.common.constant.dictmap.NoticeMap;
 import com.stylefeng.guns.core.common.constant.factory.ConstantFactory;
 import com.stylefeng.guns.core.common.exception.BizExceptionEnum;
+import com.stylefeng.guns.core.datascope.DataScope;
 import com.stylefeng.guns.core.exception.GunsException;
 import com.stylefeng.guns.core.log.LogObjectHolder;
 import com.stylefeng.guns.core.shiro.ShiroKit;
@@ -70,8 +71,17 @@ public class NoticeController extends BaseController {
      * 跳转到首页通知
      */
     @RequestMapping("/hello")
-    public String hello() {
-        List<Map<String, Object>> notices = noticeService.list(null);
+    public String hello(String condition,Integer deptid) {
+//        List<Map<String, Object>> notices = noticeService.list(null,null,deptid);
+        List<Map<String, Object>> notices = null;
+        if (ShiroKit.isAdmin()) {
+           notices = this.noticeService.list(null,condition,deptid);
+//            return super.warpObject(new NoticeWrapper(list));
+        } else {
+            DataScope dataScope = new DataScope(ShiroKit.getDeptDataScope());
+             notices = this.noticeService.list(dataScope,condition,deptid);
+//            return super.warpObject(new NoticeWrapper(list));
+        }
         super.setAttr("noticeList",notices);
         return "/blackboard.html";
     }
@@ -81,9 +91,17 @@ public class NoticeController extends BaseController {
      */
     @RequestMapping(value = "/list")
     @ResponseBody
-    public Object list(String condition) {
-        List<Map<String, Object>> list = this.noticeService.list(condition);
-        return super.warpObject(new NoticeWrapper(list));
+    public Object list(String condition,Integer deptid) {
+//        List<Map<String, Object>> list = this.noticeService.list(condition);
+//        return super.warpObject(new NoticeWrapper(list));
+        if (ShiroKit.isAdmin()) {
+            List<Map<String, Object>> list = this.noticeService.list(null,condition,deptid);
+            return super.warpObject(new NoticeWrapper(list));
+        } else {
+            DataScope dataScope = new DataScope(ShiroKit.getDeptDataScope());
+            List<Map<String, Object>> list = this.noticeService.list(dataScope,condition,deptid);
+            return super.warpObject(new NoticeWrapper(list));
+        }
     }
 
     /**

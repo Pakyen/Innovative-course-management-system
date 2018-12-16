@@ -12,6 +12,16 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.stylefeng.guns.modular.system.model.CmSysfile;
 import com.stylefeng.guns.modular.systemFile.service.ICmSysfileService;
 
+import javax.servlet.ServletException;
+import javax.servlet.annotation.MultipartConfig;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.Part;
+import java.io.File;
+import java.io.IOException;
+
 /**
  * 推荐资料控制器
  *
@@ -76,7 +86,7 @@ public class CmSysfileController extends BaseController {
      */
     @RequestMapping(value = "/add")
     @ResponseBody
-    public Object add(CmSysfile cmSysfile) {
+        public Object add(CmSysfile cmSysfile) {
         cmSysfileService.insert(cmSysfile);
         return SUCCESS_TIP;
     }
@@ -109,4 +119,5 @@ public class CmSysfileController extends BaseController {
     public Object detail(@PathVariable("cmSysfileId") Integer cmSysfileId) {
         return cmSysfileService.selectById(cmSysfileId);
     }
+
 }

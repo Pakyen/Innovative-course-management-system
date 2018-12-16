@@ -14,10 +14,13 @@ var Dept = {
 Dept.initColumn = function () {
     return [
         {field: 'selectItem', radio: true},
-        {title: 'id', field: 'id', align: 'center', valign: 'middle',width:'50px'},
-        {title: '部门简称', field: 'simplename', align: 'center', valign: 'middle', sortable: true},
-        {title: '部门全称', field: 'fullname', align: 'center', valign: 'middle', sortable: true},
-        {title: '排序', field: 'num', align: 'center', valign: 'middle', sortable: true},
+        {title: '部门编号', field: 'id', align: 'center', valign: 'middle',width:'50px'},
+        // {title: '部门简称', field: 'simplename', align: 'center', valign: 'middle', sortable: true},
+        {title: '部门名称', field: 'simplename', align: 'center', valign: 'middle', sortable: true},
+        // {title: '部门全称', field: 'fullname', align: 'center', valign: 'middle', sortable: true},
+        // {title: '排序', field: 'num', align: 'center', valign: 'middle', sortable: true},
+        {title: '学校管理员账号', field: 'schoolAdminId', align: 'center', valign: 'middle', sortable: true},
+        {title: '学校类型', field: 'schoolType', align: 'center', valign: 'middle', sortable: true},
         {title: '备注', field: 'tips', align: 'center', valign: 'middle', sortable: true}];
 };
 

@@ -54,6 +54,15 @@ public class Dept extends Model<Dept> {
      */
 	private Integer version;
 
+	/**
+	 *学校管理员账号
+	 */
+	private String schoolAdminId;
+
+	/**
+	 *学校类型
+	 */
+	private String schoolType;
 
 	public Integer getId() {
 		return id;
@@ -118,6 +127,20 @@ public class Dept extends Model<Dept> {
 	public void setVersion(Integer version) {
 		this.version = version;
 	}
+	public String getSchoolAdminId(){
+		return schoolAdminId;
+	}
+	public void setSchoolAdminId(String schoolAdminId){
+		this.schoolAdminId = schoolAdminId;
+	}
+
+	public String getSchoolType(){
+		return schoolType;
+	}
+	public void setSchoolType(String schoolType){
+		this.schoolType = schoolType;
+	}
+
 
 	@Override
 	protected Serializable pkVal() {
@@ -135,6 +158,8 @@ public class Dept extends Model<Dept> {
 			", fullname=" + fullname +
 			", tips=" + tips +
 			", version=" + version +
+			", schoolAdminId=" + schoolAdminId +
+			", schoolType=" + schoolType +
 			"}";
 	}
 }

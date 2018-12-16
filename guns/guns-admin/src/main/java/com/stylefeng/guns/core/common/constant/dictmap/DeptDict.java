@@ -18,6 +18,9 @@ public class DeptDict extends AbstractDictMap {
         put("simplename", "部门简称");
         put("fullname", "部门全称");
         put("tips", "备注");
+        put("schoolAdminId", "学校管理员账号");
+        put("schoolType", "学校类型");
+
     }
 
     @Override

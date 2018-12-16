@@ -12,10 +12,17 @@ var DeptInfoDlg = {
                 }
             }
         },
-        fullname: {
+        // fullname: {
+        //     validators: {
+        //         notEmpty: {
+        //             message: '部门全称不能为空'
+        //         }
+        //     }
+        // },
+        schoolAdminId: {
             validators: {
                 notEmpty: {
-                    message: '部门全称不能为空'
+                    message: '学校管理员账户不能为空'
                 }
             }
         },
@@ -105,7 +112,7 @@ DeptInfoDlg.hideDeptSelectTree = function() {
  * 收集数据
  */
 DeptInfoDlg.collectData = function() {
-    this.set('id').set('simplename').set('fullname').set('tips').set('num').set('pid');
+    this.set('id').set('simplename').set('fullname').set('tips').set('num').set('pid').set('schoolAdminId').set('schoolType');
 }
 
 /**

@@ -1,6 +1,6 @@
 package com.stylefeng.guns.modular.system.model;
 
-import com.baomidou.mybatisplus.annotations.TableField;
+import java.util.Date;
 import com.baomidou.mybatisplus.activerecord.Model;
 import com.baomidou.mybatisplus.annotations.TableName;
 import java.io.Serializable;
@@ -11,36 +11,74 @@ import java.io.Serializable;
  * </p>
  *
  * @author qqzj
- * @since 2018-12-01
+ * @since 2018-12-18
  */
 @TableName("cm_assistant")
 public class CmAssistant extends Model<CmAssistant> {
 
     private static final long serialVersionUID = 1L;
 
+    /**
+     * 主键id
+     */
     private Integer id;
+    /**
+     * 头像
+     */
+    private String avatar;
+    /**
+     * 账号
+     */
     private String account;
-    @TableField("school_id")
-    private Integer schoolId;
-    @TableField("class_id")
-    private Long classId;
+    /**
+     * 密码
+     */
     private String password;
     /**
-     * 用来设置，是否该账号使用
+     * md5密码盐
      */
-    @TableField("if_use")
-    private Integer ifUse;
+    private String salt;
     /**
-     * 0
+     * 名字
      */
-    private String telephone;
-    private String email;
     private String name;
     /**
-     * false的话就是助教
+     * 生日
      */
-    @TableField("is_stu")
-    private Integer isStu;
+    private Date birthday;
+    /**
+     * 性别（1：男 2：女）
+     */
+    private Integer sex;
+    /**
+     * 电子邮件
+     */
+    private String email;
+    /**
+     * 电话
+     */
+    private String phone;
+    /**
+     * 角色id
+     */
+    private String roleid;
+    /**
+     * 部门id
+     */
+    private Integer deptid;
+    /**
+     * 状态(1：启用  2：冻结  3：删除）
+     */
+    private Integer status;
+    /**
+     * 创建时间
+     */
+    private Date createtime;
+    /**
+     * 保留字段
+     */
+    private Integer version;
+    private String classId;
 
 
     public Integer getId() {
@@ -51,28 +89,20 @@ public class CmAssistant extends Model<CmAssistant> {
         this.id = id;
     }
 
+    public String getAvatar() {
+        return avatar;
+    }
+
+    public void setAvatar(String avatar) {
+        this.avatar = avatar;
+    }
+
     public String getAccount() {
         return account;
     }
 
     public void setAccount(String account) {
         this.account = account;
-    }
-
-    public Integer getSchoolId() {
-        return schoolId;
-    }
-
-    public void setSchoolId(Integer schoolId) {
-        this.schoolId = schoolId;
-    }
-
-    public Long getClassId() {
-        return classId;
-    }
-
-    public void setClassId(Long classId) {
-        this.classId = classId;
     }
 
     public String getPassword() {
@@ -83,28 +113,12 @@ public class CmAssistant extends Model<CmAssistant> {
         this.password = password;
     }
 
-    public Integer getIfUse() {
-        return ifUse;
+    public String getSalt() {
+        return salt;
     }
 
-    public void setIfUse(Integer ifUse) {
-        this.ifUse = ifUse;
-    }
-
-    public String getTelephone() {
-        return telephone;
-    }
-
-    public void setTelephone(String telephone) {
-        this.telephone = telephone;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
+    public void setSalt(String salt) {
+        this.salt = salt;
     }
 
     public String getName() {
@@ -115,12 +129,84 @@ public class CmAssistant extends Model<CmAssistant> {
         this.name = name;
     }
 
-    public Integer getIsStu() {
-        return isStu;
+    public Date getBirthday() {
+        return birthday;
     }
 
-    public void setIsStu(Integer isStu) {
-        this.isStu = isStu;
+    public void setBirthday(Date birthday) {
+        this.birthday = birthday;
+    }
+
+    public Integer getSex() {
+        return sex;
+    }
+
+    public void setSex(Integer sex) {
+        this.sex = sex;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getRoleid() {
+        return roleid;
+    }
+
+    public void setRoleid(String roleid) {
+        this.roleid = roleid;
+    }
+
+    public Integer getDeptid() {
+        return deptid;
+    }
+
+    public void setDeptid(Integer deptid) {
+        this.deptid = deptid;
+    }
+
+    public Integer getStatus() {
+        return status;
+    }
+
+    public void setStatus(Integer status) {
+        this.status = status;
+    }
+
+    public Date getCreatetime() {
+        return createtime;
+    }
+
+    public void setCreatetime(Date createtime) {
+        this.createtime = createtime;
+    }
+
+    public Integer getVersion() {
+        return version;
+    }
+
+    public void setVersion(Integer version) {
+        this.version = version;
+    }
+
+    public String getClassId() {
+        return classId;
+    }
+
+    public void setClassId(String classId) {
+        this.classId = classId;
     }
 
     @Override
@@ -132,15 +218,21 @@ public class CmAssistant extends Model<CmAssistant> {
     public String toString() {
         return "CmAssistant{" +
         "id=" + id +
+        ", avatar=" + avatar +
         ", account=" + account +
-        ", schoolId=" + schoolId +
-        ", classId=" + classId +
         ", password=" + password +
-        ", ifUse=" + ifUse +
-        ", telephone=" + telephone +
-        ", email=" + email +
+        ", salt=" + salt +
         ", name=" + name +
-        ", isStu=" + isStu +
+        ", birthday=" + birthday +
+        ", sex=" + sex +
+        ", email=" + email +
+        ", phone=" + phone +
+        ", roleid=" + roleid +
+        ", deptid=" + deptid +
+        ", status=" + status +
+        ", createtime=" + createtime +
+        ", version=" + version +
+        ", classId=" + classId +
         "}";
     }
 }

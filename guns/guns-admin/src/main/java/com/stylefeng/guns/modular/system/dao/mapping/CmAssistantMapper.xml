@@ -5,20 +5,26 @@
     <!-- 通用查询映射结果 -->
     <resultMap id="BaseResultMap" type="com.stylefeng.guns.modular.system.model.CmAssistant">
         <result column="id" property="id" />
+        <result column="avatar" property="avatar" />
         <result column="account" property="account" />
-        <result column="school_id" property="schoolId" />
-        <result column="class_id" property="classId" />
         <result column="password" property="password" />
-        <result column="if_use" property="ifUse" />
-        <result column="telephone" property="telephone" />
-        <result column="email" property="email" />
+        <result column="salt" property="salt" />
         <result column="name" property="name" />
-        <result column="is_stu" property="isStu" />
+        <result column="birthday" property="birthday" />
+        <result column="sex" property="sex" />
+        <result column="email" property="email" />
+        <result column="phone" property="phone" />
+        <result column="roleid" property="roleid" />
+        <result column="deptid" property="deptid" />
+        <result column="status" property="status" />
+        <result column="createtime" property="createtime" />
+        <result column="version" property="version" />
+        <result column="classId" property="classId" />
     </resultMap>
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id, account, school_id, class_id, password, if_use, telephone, email, name, is_stu
+        id, avatar, account, password, salt, name, birthday, sex, email, phone, roleid, deptid, status, createtime, version, classId
     </sql>
 
 </mapper>

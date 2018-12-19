@@ -5,24 +5,29 @@
     <!-- 通用查询映射结果 -->
     <resultMap id="BaseResultMap" type="com.stylefeng.guns.modular.system.model.CmStudent">
         <result column="id" property="id" />
-        <result column="school_id" property="schoolId" />
-        <result column="class_id" property="classId" />
-        <result column="Team_id" property="teamId" />
-        <result column="group_id" property="groupId" />
-        <result column="password" property="password" />
-        <result column="if_pm" property="ifPm" />
-        <result column="if_use" property="ifUse" />
-        <result column="assistant_id" property="assistantId" />
-        <result column="telephone" property="telephone" />
-        <result column="email" property="email" />
-        <result column="name" property="name" />
+        <result column="avatar" property="avatar" />
         <result column="account" property="account" />
-        <result column="is_stu" property="isStu" />
+        <result column="password" property="password" />
+        <result column="salt" property="salt" />
+        <result column="name" property="name" />
+        <result column="birthday" property="birthday" />
+        <result column="sex" property="sex" />
+        <result column="email" property="email" />
+        <result column="phone" property="phone" />
+        <result column="roleid" property="roleid" />
+        <result column="deptid" property="deptid" />
+        <result column="status" property="status" />
+        <result column="createtime" property="createtime" />
+        <result column="version" property="version" />
+        <result column="classId" property="classId" />
+        <result column="teamId" property="teamId" />
+        <result column="groupId" property="groupId" />
+        <result column="assistantId" property="assistantId" />
     </resultMap>
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id, school_id, class_id, Team_id, group_id, password, if_pm, if_use, assistant_id, telephone, email, name, account, is_stu
+        id, avatar, account, password, salt, name, birthday, sex, email, phone, roleid, deptid, status, createtime, version, classId, teamId, groupId, assistantId
     </sql>
 
 </mapper>

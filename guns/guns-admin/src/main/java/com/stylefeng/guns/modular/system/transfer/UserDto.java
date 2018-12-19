@@ -29,6 +29,10 @@ public class UserDto{
 	private Date createtime;
 	private Integer version;
 	private String avatar;
+	private String classId;
+	private String teamId;
+	private String groupId;
+	private String assistantId;
 
 
 	public Integer getId() {
@@ -150,4 +154,37 @@ public class UserDto{
 	public void setAvatar(String avatar) {
 		this.avatar = avatar;
 	}
+
+	public String getClassId() {
+		return classId;
+	}
+
+	public void setClassId(String classId) {
+		this.classId = classId;
+	}
+
+	public String getTeamId() {
+		return teamId;
+	}
+
+	public void setTeamId(String teamId) {
+		this.teamId = teamId;
+	}
+
+	public String getGroupId() {
+		return groupId;
+	}
+
+	public void setGroupId(String groupId) {
+		this.groupId = groupId;
+	}
+
+	public String getAssistantId() {
+		return assistantId;
+	}
+
+	public void setAssistantId(String assistantId) {
+		this.assistantId = assistantId;
+	}
+
 }

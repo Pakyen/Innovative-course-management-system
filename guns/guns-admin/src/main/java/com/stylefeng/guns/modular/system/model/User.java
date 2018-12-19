@@ -83,6 +83,26 @@ public class User extends Model<User> {
      */
 	private Integer version;
 
+	/**
+	 * 课程编号
+	 */
+	private String classId;
+
+	/**
+	 * 结对编程小组编号
+	 */
+	private String teamId;
+
+	/**
+	 * 团队项目小组编号
+	 */
+	private String groupId;
+
+	/**
+	 * 学生对应的助教账号
+	 */
+	private String assistantId;
+
 
 	public Integer getId() {
 		return id;
@@ -204,6 +224,38 @@ public class User extends Model<User> {
 		this.version = version;
 	}
 
+	public String getClassId() {
+		return classId;
+	}
+
+	public void setClassId(String classId) {
+		this.classId = classId;
+	}
+
+	public String getTeamId() {
+		return teamId;
+	}
+
+	public void setTeamId(String teamId) {
+		this.teamId = teamId;
+	}
+
+	public String getGroupId() {
+		return groupId;
+	}
+
+	public void setGroupId(String groupId) {
+		this.groupId = groupId;
+	}
+
+	public String getAssistantId() {
+		return assistantId;
+	}
+
+	public void setAssistantId(String assistantId) {
+		this.assistantId = assistantId;
+	}
+
 	@Override
 	protected Serializable pkVal() {
 		return this.id;
@@ -227,6 +279,10 @@ public class User extends Model<User> {
 			", status=" + status +
 			", createtime=" + createtime +
 			", version=" + version +
+			", classId=" + classId +
+				", teamId=" + teamId +
+				", groupId=" + groupId +
+				", assistantId=" + assistantId +
 			"}";
 	}
 }

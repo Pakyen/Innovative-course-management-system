@@ -23,6 +23,10 @@ public class UserDict extends AbstractDictMap {
         put("roleid","角色名称");
         put("deptid","部门名称");
         put("roleIds","角色名称集合");
+        put("classId","创新课程编号");
+        put("teamId","结对编程小组编号");
+        put("groupId","团队项目小组编号");
+        put("assistantId","学生对应的助教账号");
     }
 
     @Override

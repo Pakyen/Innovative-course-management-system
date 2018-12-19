@@ -13,7 +13,7 @@ import java.io.Serializable;
  * </p>
  *
  * @author qqzj
- * @since 2018-11-26
+ * @since 2018-12-19
  */
 @TableName("cm_teacherfile")
 public class CmTeacherfile extends Model<CmTeacherfile> {
@@ -21,28 +21,28 @@ public class CmTeacherfile extends Model<CmTeacherfile> {
     private static final long serialVersionUID = 1L;
 
     @TableId(value = "id", type = IdType.AUTO)
-    private Long id;
+    private Integer id;
     @TableField("class_id")
-    private Long classId;
+    private Integer classId;
     @TableField("file_name")
     private String fileName;
     @TableField("file_path")
     private String filePath;
 
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
-    public Long getClassId() {
+    public Integer getClassId() {
         return classId;
     }
 
-    public void setClassId(Long classId) {
+    public void setClassId(Integer classId) {
         this.classId = classId;
     }
 

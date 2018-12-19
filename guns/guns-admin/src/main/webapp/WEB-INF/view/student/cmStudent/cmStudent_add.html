@@ -1,0 +1,45 @@
+@layout("/common/_container.html"){
+<div class="ibox float-e-margins">
+    <div class="ibox-content">
+        <div class="form-horizontal">
+
+            <div class="row">
+                <div class="col-sm-6 b-r">
+                            <!--<#input id="id" name="主键id" underline="true"/>-->
+                            <!--<#input id="avatar" name="头像" underline="true"/>-->
+                            <#input id="account" name="账号" underline="true"/>
+                            <!--<#input id="password" name="密码" underline="true"/>-->
+                            <!--<#input id="salt" name="md5密码盐" underline="true"/>-->
+                            <#input id="name" name="名字" underline="true"/>
+                            <!--<#input id="birthday" name="生日" underline="true"/>-->
+                            <!--<#input id="sex" name="性别（1：男 2：女）" underline="true"/>-->
+                            <#input id="email" name="电子邮件" underline="true"/>
+                            <#input id="phone" name="电话"/>
+                            <#input id="status" name="状态(1：启用  2：冻结  3：删除）" underline="true"/>
+
+                </div>
+
+                <div class="col-sm-6">
+                            <#input id="roleid" name="角色id" underline="true"/>
+                            <#input id="deptid" name="部门id" underline="true"/>
+                            <!--<#input id="createtime" name="创建时间" underline="true"/>-->
+                            <!--<#input id="version" name="保留字段" underline="true"/>-->
+                            <#input id="classId" name="课程编号" underline="true"/>
+                            <#input id="teamId" name="结对小组" underline="true"/>
+                            <#input id="groupId" name="团队小组" underline="true"/>
+                            <#input id="assistantId" name="对应助教编号" underline="true"/>
+                </div>
+            </div>
+
+            <div class="row btn-group-m-t">
+                <div class="col-sm-10">
+                    <#button btnCss="info" name="提交" id="ensure" icon="fa-check" clickFun="CmStudentInfoDlg.addSubmit()"/>
+                    <#button btnCss="danger" name="取消" id="cancel" icon="fa-eraser" clickFun="CmStudentInfoDlg.close()"/>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script src="${ctxPath}/static/modular/student/cmStudent/cmStudent_info.js"></script>
+@}

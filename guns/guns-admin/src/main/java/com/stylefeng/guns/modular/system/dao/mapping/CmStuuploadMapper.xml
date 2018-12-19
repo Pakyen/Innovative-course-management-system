@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.stylefeng.guns.modular.system.dao.CmStuuploadMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.stylefeng.guns.modular.system.model.CmStuupload">
+        <result column="id" property="id" />
+        <result column="homework_id" property="homeworkId" />
+        <result column="stu_id" property="stuId" />
+        <result column="file_name" property="fileName" />
+        <result column="file_path" property="filePath" />
+        <result column="submit_time" property="submitTime" />
+        <result column="ass_id" property="assId" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, homework_id, stu_id, file_name, file_path, submit_time, ass_id
+    </sql>
+
+</mapper>

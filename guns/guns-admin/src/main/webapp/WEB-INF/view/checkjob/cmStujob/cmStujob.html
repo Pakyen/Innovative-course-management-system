@@ -1,0 +1,38 @@
+@layout("/common/_container.html"){
+<div class="row">
+    <div class="col-sm-12">
+        <div class="ibox float-e-margins">
+            <div class="ibox-title">
+                <h5>查看作业管理</h5>
+            </div>
+            <div class="ibox-content">
+                <div class="row row-lg">
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <#NameCon id="condition" name="名称" />
+                            </div>
+                            <div class="col-sm-3">
+                                <#button name="搜索" icon="fa-search" clickFun="CmStujob.search()"/>
+                            </div>
+                        </div>
+                        <div class="hidden-xs" id="CmStujobTableToolbar" role="group">
+                            @if(shiro.hasPermission("/cmStujob/download")){
+                                <#button name="下载作业" icon="fa-plus" clickFun="CmStujob.openAddCmStujob()"/>
+                            @}
+                            @if(shiro.hasPermission("/cmStujob/update")){
+                                <#button name="修改分数" icon="fa-edit" clickFun="CmStujob.openCmStujobDetail()" space="true"/>
+                            @}
+                            @if(shiro.hasPermission("/cmStujob/delete")){
+                                <#button name="删除" icon="fa-remove" clickFun="CmStujob.delete()" space="true"/>
+                            @}
+                        </div>
+                        <#table id="CmStujobTable"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="${ctxPath}/static/modular/checkjob/cmStujob/cmStujob.js"></script>
+@}

@@ -2,36 +2,30 @@
 <div class="ibox float-e-margins">
     <div class="ibox-content">
         <div class="form-horizontal">
-
-            <div class="row">
-                <div class="col-sm-6 b-r">
-                            <!--<#input id="id" name="" underline="true"/>-->
-                            <#input id="homeworkId" name="作业编号" underline="true"/>
-                            <#input id="stuId" name="学生账号" underline="true"/>
-                            <#input id="fileName" name="作业名称"/>
-                </div>
-
-                <div class="col-sm-6">
-                            <#input id="filePath" name="文件路径" underline="true"/>
-                            <#input id="submitTime" name="提交时间" underline="true"/>
-                            <#input id="assId" name="助教账号" underline="true"/>
-                </div>
+            <form action="upload" method="POST" enctype="multipart/form-data">
+                <!--<input type="file" name="file"/>-->
+                <!--<input type="submit" value="Upload"/>-->
+                <!--上传用户：<input type="text" name="userName"><br/>-->
+                <!--上传文件1：<input type="file" name="file1"><br/>-->
+                <input type="file" name="file"><br/>
+                <input type="submit" value="提交">
+            </form>
             </div>
 
-            <div class="row btn-group-m-t">
-                <div class="col-sm-10">
-                    <#button btnCss="info" name="提交" id="ensure" icon="fa-check" clickFun="CmStuuploadInfoDlg.addSubmit()"/>
-                    <#button btnCss="danger" name="取消" id="cancel" icon="fa-eraser" clickFun="CmStuuploadInfoDlg.close()"/>
-                </div>
-            </div>
+            <!--<div class="row btn-group-m-t">-->
+                <!--<div class="col-sm-10">-->
+                    <!--<#button btnCss="info" name="提交" id="ensure" icon="fa-check" clickFun="CmStuuploadInfoDlg.addSubmit()"/>-->
+                    <!--<#button btnCss="danger" name="取消" id="cancel" icon="fa-eraser" clickFun="CmStuuploadInfoDlg.close()"/>-->
+                <!--</div>-->
+            <!--</div>-->
         </div>
 
     </div>
-</div>
-<script src="${ctxPath}/static/modular/stuupload/cmStuupload/cmStuupload_info.js"></script>
-<script>
-    laydate.render({
-        elem: '#submitTime'
-    });
-</script>
+<!--<script src="${ctxPath}/static/modular/stuupload/cmStuupload/cmStuupload_info.js"></script>-->
+<!--<script src="${ctxPath}/static/modular/stuupload/cmStuupload/cmStuupload_info.js"></script>-->
+<!--<script>-->
+    <!--laydate.render({-->
+        <!--elem: '#submitTime'-->
+    <!--});-->
+<!--</script>-->
 @}

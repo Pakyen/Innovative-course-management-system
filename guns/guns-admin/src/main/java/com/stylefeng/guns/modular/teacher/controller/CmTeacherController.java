@@ -60,6 +60,7 @@ public class CmTeacherController extends BaseController {
     @RequestMapping(value = "/list")
     @ResponseBody
     public Object list(String condition) {
+
         return cmTeacherService.selectList(null);
     }
 

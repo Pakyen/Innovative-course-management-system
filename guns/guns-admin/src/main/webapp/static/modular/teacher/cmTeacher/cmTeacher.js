@@ -5,7 +5,8 @@ var CmTeacher = {
     id: "CmTeacherTable",	//表格id
     seItem: null,		//选中的条目
     table: null,
-    layerIndex: -1
+    layerIndex: -1,
+    deptid:0
 };
 
 /**
@@ -25,8 +26,10 @@ CmTeacher.initColumn = function () {
             {title: '电子邮件', field: 'email', visible: true, align: 'center', valign: 'middle'},
             {title: '电话', field: 'phone', visible: true, align: 'center', valign: 'middle'},
             {title: '角色id', field: 'roleid', visible: true, align: 'center', valign: 'middle'},
-            {title: '部门id', field: 'deptid', visible: true, align: 'center', valign: 'middle'},
-            {title: '状态(1：启用  2：冻结  3：删除）', field: 'status', visible: true, align: 'center', valign: 'middle'},
+            // {title: '部门id', field: 'deptid', visible: true, align: 'center', valign: 'middle'},
+            {title: '部门', field: 'deptName', visible: true,align: 'center', valign: 'middle', sortable: true},
+            // {title: '状态', field: 'status', visible: true, align: 'center', valign: 'middle'},
+            {title: '状态', field: 'statusName',visible: true, align: 'center', valign: 'middle', sortable: true},
             {title: '创建时间', field: 'createtime', visible: true, align: 'center', valign: 'middle'},
             // {title: '保留字段', field: 'version', visible: true, align: 'center', valign: 'middle'},
             {title: '课程编号', field: 'classId', visible: true, align: 'center', valign: 'middle'}

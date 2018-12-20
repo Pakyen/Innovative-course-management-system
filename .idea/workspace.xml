@@ -3,69 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="c2ac5973-3426-42f8-a1a8-16b42fc87683" name="Default Changelist" comment="谢先生做的部分修改可以跳到upload">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/CmAssistant.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/CmStudent.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/CmSysfile.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/CmTeacherfile.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/TblHouse.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/dictmap/UserDict.java" beforeDir="false" afterPath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/dictmap/UserDict.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/assManagement/controller/CmAssistantController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/assManagement/service/ICmAssistantService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/assManagement/service/impl/CmAssistantServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/housemanager/controller/TblHouseController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/housemanager/service/ITblHouseService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/housemanager/service/impl/TblHouseServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/schoolmanagement/controller/CmSchoolController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/schoolmanagement/service/ICmSchoolService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/schoolmanagement/service/impl/CmSchoolServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuManagement/controller/CmStudentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuManagement/service/ICmStudentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuManagement/service/impl/CmStudentServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/CmAssistantMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/CmSchoolMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/CmStudentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/CmTeacherfileMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/TblHouseMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/CmAssistantMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/CmSchoolMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/CmStudentMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/CmTeacherfileMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/TblHouseMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/model/CmAssistant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/model/CmSchool.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/model/CmStudent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/model/CmTeacherfile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/model/TblHouse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/transfer/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/transfer/UserDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/teacherFile/controller/CmTeacherfileController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/teacherFile/service/ICmTeacherfileService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/teacherFile/service/impl/CmTeacherfileServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/assManagement/cmAssistant/cmAssistant.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/assManagement/cmAssistant/cmAssistant_add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/assManagement/cmAssistant/cmAssistant_edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/housemanager/tblHouse/tblHouse.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/housemanager/tblHouse/tblHouse_add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/housemanager/tblHouse/tblHouse_edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/schoolmanagement/cmSchool/cmSchool.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/schoolmanagement/cmSchool/cmSchool_add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/schoolmanagement/cmSchool/cmSchool_edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/stuManagement/cmStudent/cmStudent.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/stuManagement/cmStudent/cmStudent_add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/stuManagement/cmStudent/cmStudent_edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/teacherFile/cmTeacherfile/cmTeacherfile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/teacherFile/cmTeacherfile/cmTeacherfile_add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/teacherFile/cmTeacherfile/cmTeacherfile_edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/assManagement/cmAssistant/cmAssistant.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/assManagement/cmAssistant/cmAssistant_info.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/housemanager/tblHouse/tblHouse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/housemanager/tblHouse/tblHouse_info.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/schoolmanagement/cmSchool/cmSchool.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/schoolmanagement/cmSchool/cmSchool_info.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/stuManagement/cmStudent/cmStudent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/stuManagement/cmStudent/cmStudent_info.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/teacherFile/cmTeacherfile/cmTeacherfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/teacherFile/cmTeacherfile/cmTeacherfile_info.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/controller/CmStuuploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/controller/CmStuuploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/service/ICmStuuploadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/service/ICmStuuploadService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/service/impl/CmStuuploadServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/service/impl/CmStuuploadServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/teacher/controller/CmTeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/teacher/controller/CmTeacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/stuupload/cmStuupload/cmStuupload.html" beforeDir="false" afterPath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/stuupload/cmStuupload/cmStuupload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/stuupload/cmStuupload/cmStuupload_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/stuupload/cmStuupload/cmStuupload_add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/stuupload/cmStuupload/cmStuupload_info.js" beforeDir="false" afterPath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/stuupload/cmStuupload/cmStuupload_info.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/teacher/cmTeacher/cmTeacher.js" beforeDir="false" afterPath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/teacher/cmTeacher/cmTeacher.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/guns/guns-admin/target/" />
     <ignored path="$PROJECT_DIR$/guns/guns-rest/target/" />
@@ -191,50 +136,56 @@
     <session id="1187899765">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.45" value="1" />
-          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.61" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.69" value="1" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="3" />
-          <entry key="html" value="47" />
-          <entry key="java" value="78" />
-          <entry key="js" value="35" />
+          <entry key="class" value="6" />
+          <entry key="html" value="61" />
+          <entry key="java" value="129" />
+          <entry key="js" value="51" />
+          <entry key="rnc" value="1" />
           <entry key="sql" value="15" />
-          <entry key="xml" value="5" />
+          <entry key="xml" value="7" />
+          <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="3" />
-          <entry key="HTML" value="47" />
-          <entry key="JAVA" value="78" />
-          <entry key="JavaScript" value="35" />
+          <entry key="CLASS" value="6" />
+          <entry key="HTML" value="61" />
+          <entry key="JAVA" value="129" />
+          <entry key="JavaScript" value="51" />
+          <entry key="RNG Compact" value="1" />
           <entry key="SQL" value="15" />
-          <entry key="XML" value="5" />
+          <entry key="XML" value="7" />
+          <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="323" />
-          <entry key="java" value="918" />
-          <entry key="js" value="330" />
+          <entry key="html" value="523" />
+          <entry key="java" value="1772" />
+          <entry key="js" value="347" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="323" />
-          <entry key="JAVA" value="918" />
-          <entry key="JavaScript" value="330" />
+          <entry key="HTML" value="523" />
+          <entry key="JAVA" value="1772" />
+          <entry key="JavaScript" value="347" />
           <entry key="XML" value="4" />
         </counts>
       </usages-collector>
@@ -242,40 +193,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/system/user/user.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/controller/UserMgrController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1694">
-              <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+            <state relative-caret-position="1059">
+              <caret line="196" column="59" selection-start-line="196" selection-start-column="55" selection-end-line="196" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/factory/UserFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/transfer/UserDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-110">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/warpper/UserWarpper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/system/user/user_info.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="168" selection-start-line="168" selection-end-line="168" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/system/user/user.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="25" column="42" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/UserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/model/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="582">
+              <caret line="79" column="21" lean-forward="true" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/system/user/user_add.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="48" column="112" selection-start-line="48" selection-start-column="103" selection-end-line="48" selection-end-column="112" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cmSysfileAdd</find>
-      <find>用户管理</find>
-      <find>cmteacherfile.ht</find>
-      <find>teacher</find>
-      <find>password</find>
-      <find>addSubmit()</find>
-      <find>CmStudentInfoDlg</find>
-      <find>CmSysfileInfoDlg</find>
-      <find>openAddCmSysfile</find>
-      <find>addSubmit</find>
-      <find>add</find>
-      <find>pakyen</find>
-      <find>pass</find>
-      <find>upload</find>
-      <find>deptid</find>
-      <find>MgrUser</find>
       <find>user</find>
       <find>managerTable</find>
       <find>NoticeTable</find>
-      <find>deptName</find>
-      <find>dept</find>
       <find>citySel</find>
       <find>dataScope</find>
       <find>DeptTable</find>
@@ -285,6 +299,24 @@
       <find>openCmStuuploadDetail</find>
       <find>cmStudentId</find>
       <find>cmStujobId</find>
+      <find>deptName</find>
+      <find>dept</find>
+      <find>statusName</find>
+      <find>setStatus</find>
+      <find>docu</find>
+      <find>fileupload</find>
+      <find>#</find>
+      <find>cmStuuploadService</find>
+      <find>address</find>
+      <find>printSize</find>
+      <find>openAddCmStuupload</find>
+      <find>cmStuupload_add</find>
+      <find>upload</find>
+      <find>system</find>
+      <find>PREFIX</find>
+      <find>add</find>
+      <find>addSubmit</find>
+      <find>createtime</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Rock Jay\guns\guns\guns-admin\src\main\webapp\WEB-INF\view\teacherFile\cmTeacherfile</dir>
@@ -296,16 +328,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/NoticeMapper.xml" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/warpper/NoticeWrapper.java" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/impl/NoticeServiceImpl.java" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/NoticeMapper.java" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/test/java/com/stylefeng/guns/system/BlackBoardTest.java" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/system/notice/notice.js" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/INoticeService.java" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/controller/NoticeController.java" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/controller/BlackboardController.java" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/system/dept/dept.js" />
         <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/system/dept/dept_add.html" />
         <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/dictmap/DeptDict.java" />
         <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/system/dept/dept_info.js" />
@@ -329,7 +351,6 @@
         <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/student/cmStudent/cmStudent_add.html" />
         <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/student/cmStudent/cmStudent_edit.html" />
         <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/student/cmStudent/cmStudent_info.js" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/teacher/cmTeacher/cmTeacher.js" />
         <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/teacher/cmTeacher/cmTeacher_add.html" />
         <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/upload/cmStuupload/cmStuupload_add.html" />
         <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/upload/cmStuupload/cmStuupload_edit.html" />
@@ -338,15 +359,26 @@
         <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/upload/cmStuupload/cmStuupload.html" />
         <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/checkjob/controller/CmStujobController.java" />
         <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/checkjob/cmStujob/cmStujob_info.js" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/stuupload/cmStuupload/cmStuupload.html" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/controller/CmStuuploadController.java" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/stuupload/cmStuupload/cmStuupload_add.html" />
         <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/stuupload/cmStuupload/cmStuupload.js" />
         <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/teacherfile/cmTeacherfile/cmTeacherfile.js" />
         <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/checkjob/cmStujob/cmStujob.js" />
         <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/checkjob/cmStujob/cmStujob_add.html" />
         <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/checkjob/cmStujob/cmStujob_edit.html" />
         <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/checkjob/cmStujob/cmStujob.html" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/system/user/user.html" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/teacher/cmTeacher/cmTeacher.js" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/teacher/warpper/TeacherWarpper.java" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/teacher/controller/CmTeacherController.java" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/stuupload/cmStuupload/index.html" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/stuupload/cmStuupload/cmStuupload1.js" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/stuupload/cmStuupload/cmStuupload_info.js" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/service/ICmStuuploadService.java" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/service/impl/CmStuuploadServiceImpl.java" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/controller/FileUtils.java" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/controller/FileListServlet.java" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/stuupload/cmStuupload/cmStuupload.html" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/stuupload/cmStuupload/cmStuupload_add.html" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/controller/CmStuuploadController.java" />
       </list>
     </option>
   </component>
@@ -364,8 +396,6 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="30" />
-    <option name="y" value="35" />
     <option name="width" value="1890" />
     <option name="height" value="945" />
   </component>
@@ -374,6 +404,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -386,34 +418,189 @@
               <item name="guns" type="462c0819:PsiDirectoryNode" />
               <item name="guns" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="guns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns-admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="modular" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="modular" type="462c0819:PsiDirectoryNode" />
+              <item name="stuupload" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="modular" type="462c0819:PsiDirectoryNode" />
+              <item name="stuupload" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="modular" type="462c0819:PsiDirectoryNode" />
+              <item name="stuupload" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="modular" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="modular" type="462c0819:PsiDirectoryNode" />
+              <item name="cmStuupload" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="cmStuupload" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="user&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/WEB-INF/view/system/user/user.html&#10;mgr&#9;null&#9;null&#10;user_ad&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/WEB-INF/view/system/user/user_add.html&#10;stujob&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/CmStujobMapper.xml&#10;cmstuup&#9;PSI&#9;JAVA://com.stylefeng.guns.modular.upload.controller.CmStuuploadController&#10;cmstuu&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/WEB-INF/view/upload/cmStuupload/cmStuupload.html&#10;stuup&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/static/modular/upload/cmStuupload/cmStuupload.js&#10;cmS&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/static/modular/student/cmStudent/cmStudent_info.js&#10;cmStu&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/WEB-INF/view/student/cmStudent/cmStudent_add.html&#10;cmstu&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/static/modular/student/cmStudent/cmStudent.js&#10;cmPm&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/WEB-INF/view/PM/cmPm/cmPm_edit.html&#10;pm&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/static/modular/PM/cmPm/cmPm.js&#10;ass&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/WEB-INF/view/assistant/cmAssistant/cmAssistant_add.html&#10;cm&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/WEB-INF/view/teacherFile/cmTeacherfile/cmTeacherfile.html&#10;assis&#9;PSI&#9;JAVA://com.stylefeng.guns.modular.system.controller.AssistantController&#10;upload&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/WEB-INF/view/systemFile/cmSysfile/upload.html&#10;sys.js&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/static/modular/systemFile/cmSysfile/cmSysfile_info.js&#10;dept&#9;PSI&#9;JAVA://com.stylefeng.guns.modular.system.controller.DeptController&#10;de&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/static/modular/system/dept/dept.js&#10;blackboard.html&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/WEB-INF/view/blackboard.html&#10;blackboard&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/controller/BlackboardController.java&#10;notice&#9;PSI&#9;JAVA://com.stylefeng.guns.modular.system.service.impl.NoticeServiceImpl&#10;iuser&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/IUserService.java&#10;user_add&#9;null&#9;null&#10;usermgr&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/controller/UserMgrController.java&#10;data&#9;PSI&#9;JAVA://com.stylefeng.guns.core.datascope.DataScope" />
+    <property name="SearchEverywhereHistoryKey" value="usera&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/WEB-INF/view/system/user/user_add.html&#10;user&#9;PSI&#9;JAVA://com.stylefeng.guns.modular.system.model.User&#10;userma&#9;PSI&#9;JAVA://com.stylefeng.guns.modular.system.dao.UserMapper&#10;warpper&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/warpper/UserWarpper.java&#10;mgr&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/controller/UserMgrController.java&#10;user_in&#9;null&#9;null&#10;user_&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/static/modular/system/user/user_info.js&#10;upload&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/controller/CmStuuploadController.java&#10;notice&#9;PSI&#9;JAVA://com.stylefeng.guns.modular.system.dao.NoticeMapper&#10;map&#9;PSI&#9;JAVA://com.stylefeng.guns.core.common.constant.dictmap.NoticeMap&#10;teacherma&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/CmTeacherMapper.java&#10;teacherm&#9;PSI&#9;JAVA://com.stylefeng.guns.modular.system.dao.CmTeacherMapper&#10;userw&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/warpper/UserWarpper.java&#10;teacher&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/static/modular/teacher/cmTeacher/cmTeacher.js&#10;user_ad&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/WEB-INF/view/system/user/user_add.html&#10;stujob&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/CmStujobMapper.xml&#10;cmstuup&#9;PSI&#9;JAVA://com.stylefeng.guns.modular.upload.controller.CmStuuploadController&#10;cmstuu&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/WEB-INF/view/upload/cmStuupload/cmStuupload.html&#10;stuup&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/static/modular/upload/cmStuupload/cmStuupload.js&#10;cmS&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/static/modular/student/cmStudent/cmStudent_info.js&#10;cmStu&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/WEB-INF/view/student/cmStudent/cmStudent_add.html&#10;cmstu&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/static/modular/student/cmStudent/cmStudent.js&#10;cmPm&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/WEB-INF/view/PM/cmPm/cmPm_edit.html&#10;pm&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/static/modular/PM/cmPm/cmPm.js&#10;ass&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/WEB-INF/view/assistant/cmAssistant/cmAssistant_add.html&#10;cm&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/WEB-INF/view/teacherFile/cmTeacherfile/cmTeacherfile.html&#10;assis&#9;PSI&#9;JAVA://com.stylefeng.guns.modular.system.controller.AssistantController&#10;sys.js&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/static/modular/systemFile/cmSysfile/cmSysfile_info.js&#10;dept&#9;PSI&#9;JAVA://com.stylefeng.guns.modular.system.controller.DeptController&#10;de&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/static/modular/system/dept/dept.js&#10;blackboard.html&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/WEB-INF/view/blackboard.html&#10;blackboard&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/controller/BlackboardController.java&#10;iuser&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/IUserService.java&#10;user_add&#9;null&#9;null&#10;usermgr&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/controller/UserMgrController.java&#10;data&#9;PSI&#9;JAVA://com.stylefeng.guns.core.datascope.DataScope" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545196995137" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545275317326" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="H:/火狐浏览器下载/FileUploadAndDownload-master/FileUploadAndDownload-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.stylefeng.guns.modular.stuupload.controller" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\青青子衿\Desktop\guns\guns\guns-admin\src\main\java\com\stylefeng\guns\modular\stuupload\controller" />
       <recent name="C:\Users\Rock Jay\guns\guns\guns-admin\src\main\java\com\stylefeng\guns\modular\systemFile\controller" />
       <recent name="C:\Users\Rock Jay\guns\guns\guns-admin\src\main\webapp\WEB-INF\view\systemFile\cmSysfile" />
     </key>
@@ -499,6 +686,9 @@
       <workItem from="1545133235586" duration="1196000" />
       <workItem from="1545186294436" duration="4049000" />
       <workItem from="1545194505386" duration="2497000" />
+      <workItem from="1545197439682" duration="6531000" />
+      <workItem from="1545225144938" duration="13776000" />
+      <workItem from="1545273570261" duration="1738000" />
     </task>
     <task id="LOCAL-00001" summary="把登陆页面修改了一下">
       <created>1543425282492</created>
@@ -525,7 +715,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95122000" />
+    <option name="totallyTimeSpent" value="117167000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -539,7 +729,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7147488" visible="true" weight="0.2109375" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7147488" visible="true" weight="0.1907552" />
       <window_info id="Structure" order="1" sideWeight="0.28525123" side_tool="true" weight="0.20576407" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -562,7 +752,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.4981495" visible="true" weight="0.21870701" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.4981495" visible="true" weight="0.19669876" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -575,6 +765,43 @@
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info anchor="right" id="Maven Projects" order="10" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7147488" weight="0.2643229" />
+      <window_info id="Structure" order="1" sideWeight="0.28525123" side_tool="true" weight="0.20576407" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3933975" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42978725" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.10040161" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.13503185" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32907802" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5018505" side_tool="true" weight="0.44154057" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4996299" weight="0.33287483" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.4981495" visible="true" weight="0.34615386" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Maven Projects" order="10" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -618,178 +845,107 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/CmAssistant.sql">
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        <state relative-caret-position="-354">
+          <caret line="54" column="19" lean-forward="true" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/assistant/cmAssistant/cmAssistant_add.html">
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/system/notice/notice.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-236">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="606">
+          <caret line="36" column="61" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/assistant/cmAssistant/cmAssistant_edit.html">
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/system/notice/notice.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="311">
+          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/CmStudent.sql">
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/model/Notice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" />
+        <state relative-caret-position="-1396">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/PM/cmPm/cmPm.js">
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/system/notice/notice_info.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        <state relative-caret-position="152">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/PM/cmPm/cmPm_add.html">
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/INoticeService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="29" column="64" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
+        <state relative-caret-position="396">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/PM/cmPm/cmPm_edit.html">
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/controller/NoticeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="218">
+          <caret line="98" column="47" lean-forward="true" selection-start-line="98" selection-start-column="47" selection-end-line="98" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/student/cmStudent/cmStudent_add.html">
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/impl/NoticeServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state relative-caret-position="322">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/student/cmStudent/cmStudent_info.js">
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/NoticeMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="47" column="3" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
+        <state relative-caret-position="286">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/CmTeacher.sql">
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/warpper/NoticeWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" />
+        <state relative-caret-position="330">
+          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/teacherfile/controller/CmTeacherfileController.java">
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/factory/ConstantFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="96" column="10" selection-start-line="96" selection-start-column="10" selection-end-line="96" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/student/cmStudent/cmStudent_edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="35" column="118" selection-start-line="35" selection-start-column="108" selection-end-line="35" selection-end-column="118" />
+        <state relative-caret-position="-303">
+          <caret line="227" column="18" selection-start-line="227" selection-start-column="18" selection-end-line="227" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/teacher/cmTeacher/cmTeacher.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="220">
+          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/teacher/cmTeacher/cmTeacher.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/teacher/cmTeacher/cmTeacher_add.html">
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/teacher/warpper/TeacherWarpper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        <state relative-caret-position="242">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/teacher/cmTeacher/cmTeacher_edit.html">
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/teacher/service/impl/CmTeacherServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-418" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/upload/cmStuupload/cmStuupload_edit.html" />
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/upload/cmStuupload/cmStuupload_add.html" />
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/upload/cmStuupload/cmStuupload.html" />
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/upload/cmStuupload/cmStuupload.js" />
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE.jar!/org/springframework/web/bind/annotation/RequestParam.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="66">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3.jar!/com/baomidou/mybatisplus/service/IService.class">
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/CmTeacherMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/student/controller/CmStudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="48" column="51" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/assistant/cmAssistant/cmAssistant_info.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/model/CmAssistant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/assistant/cmAssistant/cmAssistant.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1430">
-          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/checkjob/cmStujob/cmStujob_info.js" />
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/student/cmStudent/cmStudent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/checkjob/controller/CmStujobController.java" />
-    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2.jar!/org/mybatis/spring/MyBatisExceptionTranslator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/upload/controller/CmStuuploadController.java" />
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/CmStujobMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
-        </state>
+        <state relative-caret-position="-274" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/CmStujobMapper.java">
@@ -799,125 +955,218 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/model/CmStujob.java">
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="108">
+          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/CmStuupload.sql">
+    <entry file="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3.jar!/com/baomidou/mybatisplus/service/impl/ServiceImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" />
+        <state relative-caret-position="-484">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/CmPm.sql">
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/IUserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="264">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/CmTeacherfile.sql">
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/CmTeacherMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" />
+        <state relative-caret-position="264">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/controller/CmStuuploadController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/stuupload/cmStuupload/cmStuupload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/system/user/user_add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="57" selection-start-line="57" selection-end-line="61" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/stuupload/cmStuupload/cmStuupload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/stuupload/cmStuupload/cmStuupload_add.html">
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/dictmap/UserDict.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
-          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/teacherfile/cmTeacherfile/cmTeacherfile_info.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/teacherfile/cmTeacherfile/cmTeacherfile.js">
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/dictmap/NoticeMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="132">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/CmStujob.sql">
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/dictmap/base/AbstractDictMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" />
+        <state relative-caret-position="220">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/checkjob/cmStujob/cmStujob.js">
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/NoticeMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/checkjob/cmStujob/cmStujob_add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/checkjob/cmStujob/cmStujob_edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/checkjob/cmStujob/cmStujob.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="20" column="90" selection-start-line="20" selection-start-column="90" selection-end-line="20" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/controller/UserMgrController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="61" column="21" selection-start-line="61" selection-start-column="21" selection-end-line="61" selection-end-column="21" />
+        <state relative-caret-position="144">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/system/user/user.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1694">
-          <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+        <state relative-caret-position="66">
+          <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/service/ICmStuuploadService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/service/impl/CmStuuploadServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/stuupload/cmStuupload/cmStuupload1.js" />
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/stuupload/cmStuupload/cmStuupload_info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/controller/FileUtils.java" />
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/controller/FileListServlet.java" />
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/controller/BaseServlet.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-507">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3.jar!/com/baomidou/mybatisplus/service/IService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/teacher/controller/CmTeacherController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1078">
+          <caret line="63" column="49" lean-forward="true" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/stuupload/cmStuupload/index.html" />
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/stuupload/cmStuupload/cmStuupload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="20" column="108" selection-start-line="20" selection-start-column="90" selection-end-line="20" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/stuupload/cmStuupload/cmStuupload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="50" column="61" selection-start-line="50" selection-start-column="46" selection-end-line="50" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/controller/CmStuuploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="83" column="7" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/stuupload/cmStuupload/cmStuupload_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/system/user/user_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="48" column="112" selection-start-line="48" selection-start-column="103" selection-end-line="48" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/controller/UserMgrController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1059">
+          <caret line="196" column="59" selection-start-line="196" selection-start-column="55" selection-end-line="196" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/transfer/UserDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/factory/UserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/warpper/UserWarpper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/system/user/user_info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="168" selection-start-line="168" selection-end-line="168" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/system/user/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="79" column="21" lean-forward="true" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
         </state>
       </provider>
     </entry>

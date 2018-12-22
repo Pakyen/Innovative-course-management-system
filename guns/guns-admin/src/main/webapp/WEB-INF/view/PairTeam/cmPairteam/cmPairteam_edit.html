@@ -1,0 +1,29 @@
+@layout("/common/_container.html"){
+<div class="ibox float-e-margins">
+    <div class="ibox-content">
+        <div class="form-horizontal">
+
+            <div class="row">
+                <div class="col-sm-6 b-r">
+                            <#input id="id" name="主键id" value="${item.id}" underline="true"/>
+                            <#input id="account" name="账号" value="${item.account}" />
+                </div>
+
+                <div class="col-sm-6">
+                            <#input id="name" name="名字" value="${item.name}" underline="true"/>
+                            <#input id="teamId" name="结对ID" value="${item.teamId}" />
+                </div>
+            </div>
+
+            <div class="row btn-group-m-t">
+                <div class="col-sm-10">
+                    <#button btnCss="info" name="提交" id="ensure" icon="fa-check" clickFun="CmPairteamInfoDlg.editSubmit()"/>
+                    <#button btnCss="danger" name="取消" id="cancel" icon="fa-eraser" clickFun="CmPairteamInfoDlg.close()"/>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script src="${ctxPath}/static/modular/PairTeam/cmPairteam/cmPairteam_info.js"></script>
+@}

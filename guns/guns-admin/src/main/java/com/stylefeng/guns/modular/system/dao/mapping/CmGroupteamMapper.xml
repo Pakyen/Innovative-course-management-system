@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.stylefeng.guns.modular.system.dao.CmGroupteamMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.stylefeng.guns.modular.system.model.CmGroupteam">
+        <result column="id" property="id" />
+        <result column="account" property="account" />
+        <result column="name" property="name" />
+        <result column="roleid" property="roleid" />
+        <result column="groupId" property="groupId" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, account, name, roleid, groupId
+    </sql>
+
+    <select id="look_groupteam" resultType="map">
+        select id, account, name, roleid, groupId
+        from cm_groupteam where groupId like CONCAT('%','%','%','%',#{condition})
+    </select>
+
+    <select id="userGroup_id" resultType="String">
+        select groupId
+        from cm_groupteam where id like CONCAT(#{id},'%','%','%','%')
+    </select>
+
+    <update id="delete_groupId">
+        update sys_user set groupId = NULL where id = #{id}
+    </update>
+
+    <select id="gt_the_groupId" resultType="String">
+        select groupId
+        from cm_groupteam where account like CONCAT('%',#{gt_the_account},'%','%','%')
+    </select>
+
+    <!--更新指定用户的groupId-->
+    <update id="gt_update_account" >
+        update sys_user set groupId = #{the_groupId} where account = #{gt_the_account}
+    </update>
+
+    <!--指定group_team的人数-->
+    <select id="gtcount" resultType="Integer">
+        select count(1) a
+        from sys_user where groupId = #{a}
+    </select>
+
+    <!--获得指定id的roleid-->
+    <select id="gt_the_roleid" resultType="String">
+        select roleid
+        from cm_groupteam where id = #{id}
+    </select>
+</mapper>

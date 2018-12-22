@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2ac5973-3426-42f8-a1a8-16b42fc87683" name="Default Changelist" comment="谢先生做的部分修改可以跳到upload">
+      <change beforePath="$PROJECT_DIR$/.idea/guns.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/guns.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/controller/CmStuuploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/controller/CmStuuploadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/service/ICmStuuploadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/service/ICmStuuploadService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/service/impl/CmStuuploadServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/service/impl/CmStuuploadServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/teacher/controller/CmTeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/teacher/controller/CmTeacherController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/stuupload/cmStuupload/cmStuupload.html" beforeDir="false" afterPath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/stuupload/cmStuupload/cmStuupload.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/stuupload/cmStuupload/cmStuupload_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/stuupload/cmStuupload/cmStuupload_add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/stuupload/cmStuupload/cmStuupload_info.js" beforeDir="false" afterPath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/stuupload/cmStuupload/cmStuupload_info.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/teacher/cmTeacher/cmTeacher.js" beforeDir="false" afterPath="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/teacher/cmTeacher/cmTeacher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guns/guns-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/guns/guns-admin/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/guns/guns-admin/target/" />
     <ignored path="$PROJECT_DIR$/guns/guns-rest/target/" />
@@ -22,6 +17,10 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1642717104">
@@ -190,86 +189,104 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="856290565">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.56" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="html" value="10" />
+          <entry key="java" value="14" />
+          <entry key="js" value="17" />
+          <entry key="xml" value="2" />
+          <entry key="yml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="HTML" value="10" />
+          <entry key="JAVA" value="14" />
+          <entry key="JavaScript" value="17" />
+          <entry key="XML" value="2" />
+          <entry key="YAML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="17" />
+          <entry key="java" value="707" />
+          <entry key="js" value="36" />
+          <entry key="xml" value="72" />
+          <entry key="yml" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="17" />
+          <entry key="JAVA" value="707" />
+          <entry key="JavaScript" value="36" />
+          <entry key="XML" value="72" />
+          <entry key="YAML" value="9" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/controller/UserMgrController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1059">
-              <caret line="196" column="59" selection-start-line="196" selection-start-column="55" selection-end-line="196" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/factory/UserFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/transfer/UserDto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-110">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/warpper/UserWarpper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/system/user/user_info.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="168" selection-start-line="168" selection-end-line="168" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/system/user/user.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="25" column="42" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/UserMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/model/User.java">
+        <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/PairTeam/controller/CmPairteamController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="582">
-              <caret line="79" column="21" lean-forward="true" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+            <state relative-caret-position="1525">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/system/user/user_add.html">
+        <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/PairTeam/service/impl/CmPairteamServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="48" column="112" selection-start-line="48" selection-start-column="103" selection-end-line="48" selection-end-column="112" />
+            <state relative-caret-position="166">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="e#812#813#0" expanded="true" />
+                <element signature="e#868#869#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/PairTeam/service/ICmPairteamService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/CmPairteamMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-450">
+              <caret column="46" lean-forward="true" selection-start-column="46" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/CmPairteamMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -328,25 +345,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/system/dept/dept_add.html" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/dictmap/DeptDict.java" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/system/dept/dept_info.js" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/model/Dept.java" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/model/User.java" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/dictmap/UserDict.java" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/transfer/UserDto.java" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/system/assistant/assistant_edit.html" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/system/assistant/assistant_add.html" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/system/assistant/assistant.js" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/systemFile/cmSysfile/upload.html" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/system/assistant/assistant.html" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/AssistantMapper.java" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/assistant/cmAssistant/cmAssistant.js" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/assistant/cmAssistant/cmAssistant_add.html" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/assistant/cmAssistant/cmAssistant_edit.html" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/PM/cmPm/cmPm.js" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/PM/cmPm/cmPm_edit.html" />
-        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/PM/cmPm/cmPm_add.html" />
         <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/student/cmStudent/cmStudent.js" />
         <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/student/cmStudent/cmStudent_add.html" />
         <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/student/cmStudent/cmStudent_edit.html" />
@@ -378,7 +376,26 @@
         <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/controller/FileListServlet.java" />
         <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/stuupload/cmStuupload/cmStuupload.html" />
         <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/stuupload/cmStuupload/cmStuupload_add.html" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/controller/CmStuuploadController.java" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/GroupTeam/cmGroupteam/cmGroupteam_add.html" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/GroupTeam/cmGroupteam/cmGroupteam_edit.html" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/GroupTeam/service/impl/CmGroupteamServiceImpl.java" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/GroupTeam/service/ICmGroupteamService.java" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/CmGroupteamMapper.java" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/CmGroupteamMapper.xml" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/GroupTeam/cmGroupteam/cmGroupteam_info.js" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/PairTeam/cmPairteam/cmPairteam_info.js" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/PairTeam/cmPairteam/cmPairteam_add.html" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/PairTeam/cmPairteam/cmPairteam_edit.html" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/GroupTeam/cmGroupteam/cmGroupteam.js" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/GroupTeam/controller/CmGroupteamController.java" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/PairTeam/cmPairteam/cmPairteam.js" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/PairTeam/service/impl/CmPairteamServiceImpl.java" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/CmPairteamMapper.java" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/PairTeam/service/ICmPairteamService.java" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/PairTeam/controller/CmPairteamController.java" />
+        <option value="$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/CmPairteamMapper.xml" />
       </list>
     </option>
   </component>
@@ -396,8 +413,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1890" />
-    <option name="height" value="945" />
+    <option name="x" value="954" />
+    <option name="width" value="963" />
+    <option name="height" value="1035" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -479,7 +497,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="guns" type="462c0819:PsiDirectoryNode" />
               <item name="modular" type="462c0819:PsiDirectoryNode" />
-              <item name="stuupload" type="462c0819:PsiDirectoryNode" />
+              <item name="GroupTeam" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guns" type="b2602c69:ProjectViewProjectNode" />
@@ -491,7 +509,32 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="guns" type="462c0819:PsiDirectoryNode" />
               <item name="modular" type="462c0819:PsiDirectoryNode" />
-              <item name="stuupload" type="462c0819:PsiDirectoryNode" />
+              <item name="GroupTeam" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="modular" type="462c0819:PsiDirectoryNode" />
+              <item name="PairTeam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="guns-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="guns" type="462c0819:PsiDirectoryNode" />
+              <item name="modular" type="462c0819:PsiDirectoryNode" />
+              <item name="PairTeam" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -504,7 +547,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="guns" type="462c0819:PsiDirectoryNode" />
               <item name="modular" type="462c0819:PsiDirectoryNode" />
-              <item name="stuupload" type="462c0819:PsiDirectoryNode" />
+              <item name="PairTeam" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -545,18 +588,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="modular" type="462c0819:PsiDirectoryNode" />
-              <item name="cmStuupload" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns" type="462c0819:PsiDirectoryNode" />
-              <item name="guns-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -568,7 +599,11 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="cmStuupload" type="462c0819:PsiDirectoryNode" />
+              <item name="cmPairteam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="guns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -585,9 +620,9 @@
     <property name="SearchEverywhereHistoryKey" value="usera&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/WEB-INF/view/system/user/user_add.html&#10;user&#9;PSI&#9;JAVA://com.stylefeng.guns.modular.system.model.User&#10;userma&#9;PSI&#9;JAVA://com.stylefeng.guns.modular.system.dao.UserMapper&#10;warpper&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/warpper/UserWarpper.java&#10;mgr&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/controller/UserMgrController.java&#10;user_in&#9;null&#9;null&#10;user_&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/static/modular/system/user/user_info.js&#10;upload&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/controller/CmStuuploadController.java&#10;notice&#9;PSI&#9;JAVA://com.stylefeng.guns.modular.system.dao.NoticeMapper&#10;map&#9;PSI&#9;JAVA://com.stylefeng.guns.core.common.constant.dictmap.NoticeMap&#10;teacherma&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/CmTeacherMapper.java&#10;teacherm&#9;PSI&#9;JAVA://com.stylefeng.guns.modular.system.dao.CmTeacherMapper&#10;userw&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/warpper/UserWarpper.java&#10;teacher&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/static/modular/teacher/cmTeacher/cmTeacher.js&#10;user_ad&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/WEB-INF/view/system/user/user_add.html&#10;stujob&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/CmStujobMapper.xml&#10;cmstuup&#9;PSI&#9;JAVA://com.stylefeng.guns.modular.upload.controller.CmStuuploadController&#10;cmstuu&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/WEB-INF/view/upload/cmStuupload/cmStuupload.html&#10;stuup&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/static/modular/upload/cmStuupload/cmStuupload.js&#10;cmS&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/static/modular/student/cmStudent/cmStudent_info.js&#10;cmStu&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/WEB-INF/view/student/cmStudent/cmStudent_add.html&#10;cmstu&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/static/modular/student/cmStudent/cmStudent.js&#10;cmPm&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/WEB-INF/view/PM/cmPm/cmPm_edit.html&#10;pm&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/static/modular/PM/cmPm/cmPm.js&#10;ass&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/WEB-INF/view/assistant/cmAssistant/cmAssistant_add.html&#10;cm&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/WEB-INF/view/teacherFile/cmTeacherfile/cmTeacherfile.html&#10;assis&#9;PSI&#9;JAVA://com.stylefeng.guns.modular.system.controller.AssistantController&#10;sys.js&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/static/modular/systemFile/cmSysfile/cmSysfile_info.js&#10;dept&#9;PSI&#9;JAVA://com.stylefeng.guns.modular.system.controller.DeptController&#10;de&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/static/modular/system/dept/dept.js&#10;blackboard.html&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/webapp/WEB-INF/view/blackboard.html&#10;blackboard&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/controller/BlackboardController.java&#10;iuser&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/IUserService.java&#10;user_add&#9;null&#9;null&#10;usermgr&#9;FILE&#9;file://C:/Users/青青子衿/Desktop/guns/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/controller/UserMgrController.java&#10;data&#9;PSI&#9;JAVA://com.stylefeng.guns.core.datascope.DataScope" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545275317326" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545411471837" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/workplace/guns" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -689,6 +724,10 @@
       <workItem from="1545197439682" duration="6531000" />
       <workItem from="1545225144938" duration="13776000" />
       <workItem from="1545273570261" duration="1738000" />
+      <workItem from="1545359973199" duration="1688000" />
+      <workItem from="1545382237613" duration="8829000" />
+      <workItem from="1545447308764" duration="2225000" />
+      <workItem from="1545449832071" duration="8199000" />
     </task>
     <task id="LOCAL-00001" summary="把登陆页面修改了一下">
       <created>1543425282492</created>
@@ -715,7 +754,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117167000" />
+    <option name="totallyTimeSpent" value="138108000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -727,9 +766,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-6" y="-6" width="1719" height="972" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7147488" visible="true" weight="0.1907552" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7147488" visible="true" weight="0.21616872" />
       <window_info id="Structure" order="1" sideWeight="0.28525123" side_tool="true" weight="0.20576407" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -745,14 +785,14 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.13503185" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32907802" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32818073" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5018505" side_tool="true" weight="0.44154057" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4996299" weight="0.33287483" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4996299" weight="0.3314021" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.4981495" visible="true" weight="0.19669876" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.4981495" visible="true" weight="0.3650058" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -765,43 +805,6 @@
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info anchor="right" id="Maven Projects" order="10" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7147488" weight="0.2643229" />
-      <window_info id="Structure" order="1" sideWeight="0.28525123" side_tool="true" weight="0.20576407" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3933975" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.42978725" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.10040161" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.13503185" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32907802" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5018505" side_tool="true" weight="0.44154057" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4996299" weight="0.33287483" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.4981495" visible="true" weight="0.34615386" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-      <window_info anchor="right" id="Maven Projects" order="10" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -845,165 +848,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-354">
-          <caret line="54" column="19" lean-forward="true" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/system/notice/notice.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="36" column="61" selection-start-line="36" selection-start-column="61" selection-end-line="36" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/system/notice/notice.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/model/Notice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1396">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/system/notice/notice_info.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="21" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/INoticeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/controller/NoticeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="98" column="47" lean-forward="true" selection-start-line="98" selection-start-column="47" selection-end-line="98" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/impl/NoticeServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/NoticeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/warpper/NoticeWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/factory/ConstantFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-303">
-          <caret line="227" column="18" selection-start-line="227" selection-start-column="18" selection-end-line="227" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/teacher/cmTeacher/cmTeacher.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="31" column="44" selection-start-line="31" selection-start-column="44" selection-end-line="31" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/teacher/warpper/TeacherWarpper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/teacher/service/impl/CmTeacherServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/CmTeacherMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-274" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/CmStujobMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3.jar!/com/baomidou/mybatisplus/service/impl/ServiceImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-484">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/service/IUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/CmTeacherMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/dictmap/UserDict.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/dictmap/NoticeMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/core/common/constant/dictmap/base/AbstractDictMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/NoticeMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1025,13 +869,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/service/ICmStuuploadService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/service/impl/CmStuuploadServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1050,13 +887,7 @@
     <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/controller/FileUtils.java" />
     <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/controller/FileListServlet.java" />
     <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/controller/BaseServlet.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-507">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Object.java" />
     <entry file="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-support/2.3/mybatis-plus-support-2.3.jar!/com/baomidou/mybatisplus/service/IService.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1093,13 +924,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/controller/CmStuuploadController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="83" column="7" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/stuupload/cmStuupload/cmStuupload_add.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-52">
@@ -1107,24 +931,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/system/user/user_add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="48" column="112" selection-start-line="48" selection-start-column="103" selection-end-line="48" selection-end-column="112" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/controller/UserMgrController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1059">
+        <state relative-caret-position="576">
           <caret line="196" column="59" selection-start-line="196" selection-start-column="55" selection-end-line="196" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/transfer/UserDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1135,10 +945,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/transfer/UserDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/warpper/UserWarpper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1159,14 +976,194 @@
     <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="79" column="21" lean-forward="true" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+        <state relative-caret-position="576">
+          <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/system/user/user_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="48" column="112" selection-start-line="48" selection-start-column="103" selection-end-line="48" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2100">
+          <caret line="84" column="24" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/5.0.5.RELEASE/spring-web-5.0.5.RELEASE.jar!/org/springframework/web/multipart/MultipartFile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/service/ICmStuuploadService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/stuupload/controller/CmStuuploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="91" column="40" lean-forward="true" selection-start-line="91" selection-start-column="40" selection-end-line="91" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/GroupTeam/cmGroupteam/cmGroupteam.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/GroupTeam/cmGroupteam/cmGroupteam_edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/GroupTeam/cmGroupteam/cmGroupteam_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="59" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/GroupTeam/cmGroupteam/cmGroupteam_info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1076">
+          <caret line="70" column="25" lean-forward="true" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/GroupTeam/cmGroupteam/cmGroupteam.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="76" column="30" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/CmGroupteamMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="51" column="54" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/GroupTeam/controller/CmGroupteamController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="113" column="9" lean-forward="true" selection-start-line="104" selection-start-column="8" selection-end-line="113" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/GroupTeam/service/impl/CmGroupteamServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="60" column="101" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="60" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/CmGroupteamMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="52" column="13" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/GroupTeam/service/ICmGroupteamService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1147">
+          <caret line="51" column="54" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/PairTeam/cmPairteam/cmPairteam_info.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/static/modular/PairTeam/cmPairteam/cmPairteam.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="75" column="30" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/PairTeam/cmPairteam/cmPairteam.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/PairTeam/cmPairteam/cmPairteam_edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/webapp/WEB-INF/view/PairTeam/cmPairteam/cmPairteam_add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/core/intercept/SessionHolderInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/PairTeam/service/ICmPairteamService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/CmPairteamMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450">
+          <caret column="46" lean-forward="true" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/system/dao/mapping/CmPairteamMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="33" column="54" selection-start-line="33" selection-start-column="54" selection-end-line="33" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/PairTeam/service/impl/CmPairteamServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guns/guns-admin/src/main/java/com/stylefeng/guns/modular/PairTeam/controller/CmPairteamController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1525">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
         </state>
       </provider>
     </entry>
@@ -1222,7 +1219,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>guns-generator</last-edited>
+          <last-edited>guns</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

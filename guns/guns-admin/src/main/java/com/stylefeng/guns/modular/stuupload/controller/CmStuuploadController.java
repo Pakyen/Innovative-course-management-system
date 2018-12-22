@@ -2,8 +2,9 @@ package com.stylefeng.guns.modular.stuupload.controller;
 
 import com.alibaba.fastjson.JSONObject;
 import com.stylefeng.guns.core.base.controller.BaseController;
+import com.stylefeng.guns.modular.stuupload.service.ICmStuuploadService;
 import com.stylefeng.guns.modular.system.model.CmSysfile;
-import org.apache.commons.fileupload.FileUploadException;
+//import org.apache.commons.fileupload.FileUploadException;
 import org.apache.tomcat.util.http.fileupload.FileUploadBase;
 import org.apache.tomcat.util.http.fileupload.IOUtils;
 import org.apache.tomcat.util.http.fileupload.ProgressListener;
@@ -13,7 +14,6 @@ import org.springframework.ui.Model;
 import org.springframework.beans.factory.annotation.Autowired;
 import com.stylefeng.guns.core.log.LogObjectHolder;
 import com.stylefeng.guns.modular.system.model.CmStuupload;
-import com.stylefeng.guns.modular.stuupload.service.ICmStuuploadService;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 import org.springframework.web.multipart.support.AbstractMultipartHttpServletRequest;
@@ -32,9 +32,9 @@ import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServletRequest;
 
-import org.apache.commons.fileupload.FileItem;
-import org.apache.commons.fileupload.disk.DiskFileItemFactory;
-import org.apache.commons.fileupload.servlet.ServletFileUpload;
+//import org.apache.commons.fileupload.FileItem;
+//import org.apache.commons.fileupload.disk.DiskFileItemFactory;
+//import org.apache.commons.fileupload.servlet.ServletFileUpload;
 /**
  * 上传作业控制器
  *
